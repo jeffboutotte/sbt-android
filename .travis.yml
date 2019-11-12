@@ -7,8 +7,8 @@ jdk:
 
 env:
   matrix:
-    - TEST_COMMAND="scripted android-sdk-plugin/*1of2"
-    - TEST_COMMAND="scripted android-sdk-plugin/*2of2"
+    #- TEST_COMMAND="scripted android-sdk-plugin/*1of2"
+    #- TEST_COMMAND="scripted android-sdk-plugin/*2of2"
     - TEST_COMMAND="scripted gradle-build/*"
   global:
     - ANDROID_EMU_API_LEVEL=24
